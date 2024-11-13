@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Bicyclette";
+  src: local("Bicyclette Bold"), local("Bicyclette-Bold"),
+    url("Bicyclette-Bold.woff2") format("woff2"),
+    url("Bicyclette-Bold.woff") format("woff"),
+    url("Bicyclette-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.heading {
+  font-family: "Bicyclette";
+}

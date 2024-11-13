@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.arc {
+  border-bottom-left-radius: 10px;
+}
+.com {
+  border-bottom-right-radius: 10px;
+}
+
+.radio-option {
+  cursor: pointer;
+  padding: 2px;
+  margin-bottom: 4px;
+  border: 2px solid transparent;
+}
+
+.selected {
+  border: 2px solid #296366;
+}
+
+.related {
+  border-radius: 20px;
+}
+
+.related-line:after {
+  border-top: 1px solid;
+  border-color: inherit;
+  content: "";
+  display: inline-block;
+  margin: 0 12px;
+  vertical-align: middle;
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+}
